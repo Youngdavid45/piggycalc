@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/cssandjs/pending.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+</head>
+<body>
+    <div class="container">
+        <h3>Calculate your interest</h3>
+        <p id="msg"></p>
+
+        <div>
+            <form action="">
+                <div class="top">
+                    <label for="">Enter number of days</label>
+                    <input id="days" type="text" placeholder="Number of days">
+                </div>
+
+                <div class="middle">
+                    <label for="">Title of SafeLock</label>
+                    <input type="text" placeholder="My Next Cashing Out">
+                </div>
+
+                <div class="middle">
+                    <label for="">Amount to lock / Invest</label>
+                    <input id="amount" type="text" placeholder="Amount to lock">
+                </div>
+
+                <div class="top">
+                    <label for="">Interest rate in (%)</label>
+                    <p class="ok" id="percent"></p>
+                    <label for="">Interest rate in Naira</label>
+                    <p class="ok" id="naira"></p>
+                </div>
+
+                <div class="btn">
+                    <button type="submit" onclick="interestCalc()">PREVIEW SAFELOCK</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/cssandjs/calc.js"></script>
+</body>
+</html>
